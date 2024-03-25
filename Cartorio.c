@@ -82,17 +82,17 @@ int consulta()
     	printf("Não foi possivel abrir o arquivo, não localizado!. \n");// mensagem dada após não achar o cpf no sistema
 	}
 	
-	while(fgets(conteudo, 200, file) != NULL)
+	while(fgets(conteudo, 200, file) != NULL)// usada para ler caracteres e armazenar nas strings
 	{
 		        
-		printf("\nInformações: ");
-		printf("%s", conteudo);
-		printf("\n\n");
+		printf("\nInformações: ");// traz as informaçoes para a tela
+		printf("%s", conteudo);// puxa as informaçções do arquivo
+		printf("\n\n");// pula linha
 		
 	}
 
 	
-	system("pause");
+	system("pause")
 	
 }
 
